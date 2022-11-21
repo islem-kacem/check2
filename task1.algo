@@ -1,0 +1,20 @@
+FUNCTION dot_product(v1,v2) : return_type
+VAR
+    ps,i:integer
+    v1 : ARRAY_OF number;
+    v2:ARRAY_OF number;
+BEGIN
+    read(v1)
+    read(v2)
+    FOR i from 0 to v1.length step 1 do
+       ps:= ps+ (v1[i] * v2[i])
+    END_FOR 
+    return_ps;   
+END
+
+ALGORITHM task1
+VAR
+    tab
+BEGIN
+    set_instructions
+END
